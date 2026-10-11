@@ -6,7 +6,7 @@
 
 **Aurora** is an open-source, DIY smart table lamp designed with a premium "Halo Tower" aesthetic. Built around the **ESP32-C3**, it features 14 addressable LEDs hidden behind a frosted diffuser, creating smooth aurora-like gradients. Unlike cloud-dependent bulbs, Aurora runs entirely locally with a custom web dashboard, REST API, and intuitive single-button gesture control.
 
-
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![PlatformIO Build Status](https://img.shields.io/badge/Build-PlatformIO-blue)](.github/workflows/build.yml)
 [![Hardware](https://img.shields.io/badge/Hardware-DIY-orange)](#hardware--bill-of-materials)
 
@@ -42,7 +42,7 @@
 
 ---
 
-##  Bill of Materials (BOM)
+## 🧾 Bill of Materials (BOM)
 
 ### Essential Electronics
 *   [ ] 1x ESP32-C3 Development Board
@@ -142,7 +142,7 @@ GET  /api/battery     # Returns voltage and percentage
 
 ---
 
-## ️ User Guide
+## 🕹️ User Guide
 
 ### Initial Setup
 1.  Power on the lamp (Set switch to **USE**).
@@ -186,7 +186,9 @@ Contributions are welcome! Please fork the repository and submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Apache License 2.0**.
+
+See the [LICENSE](LICENSE) file for details. This means you are free to use, modify, and distribute this code (even commercially), provided you retain the original copyright notice and license text.
 
 ---
 
